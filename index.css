@@ -1,0 +1,12 @@
+*{
+	margin:0;
+	padding:10;
+}
+hr{
+	padding:0;
+}
+.codespan{
+	padding:0;
+	color:rgba(242,0,249,1);
+	background-color:rgba(245,181,253,.2);
+}
