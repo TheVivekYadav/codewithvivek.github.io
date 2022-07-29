@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(31, 29, 29);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: sticky; */
+    top: 0;
+    background: white;
+    
+
+}
+
+.title-cwv{
+    display: none;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.logo img:hover{
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 53%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li:hover{
+    background-color: rgb(47, 170, 47);
+    color: white;
+    cursor: pointer;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(31, 165, 53);
+    border-radius: 9px;
+}
+
+section.background{
+    height: 90vh;
+}
+
+.html{
+    /* height: 100vh; */
+    background: #282A35!important;
+}
+
+section{
+    width: 100%;
+}
+
+.css{
+    /* height: 100vh; */
+    background: cyan!important;
+}
+
+.javascript{
+    /* height: 100vh; */
+    background: rgb(240, 240, 108)!important;
+}
+
+.python{
+    /* height: 100vh; */
+    background: #282A35!important;
+}
+
+.sql{
+    /* height: 100vh; */
+    background: white!important;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    font-size: 30px;
+    height: 50%;
+    text-align: center;
+}
+
+.btn-green{
+    padding: 10px;
+    background: rgba(78, 228, 78, 0.603);
+    border-radius: 10px;
+    border: none;
+    width: 40%;
+    cursor: pointer;
+    /* align-items: center; */
+}
+
+.btn-white{
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    width: 40%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    margin-left: 10px;
+}
+
+.text-big{
+    font-size: 33px;
+}
+
+.text-small{
+    font-size: 16px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid rgb(47, 170, 47);
+    border-radius: 8px;
+    /* font-size: 18px; */
+    background: rgb(47, 170, 47);
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.languages{
+    background-color: rgb(31, 29, 29);
+    /* width: 100%; */
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */ 
+    color: white;
+    /* margin: 10px; */
+}
+
+.languages .box{
+    position: relative;
+    width: 550;
+    height: 228;
+    background: chartreuse;
+    /* box-shadow:0 0 20px #bac3c3 */
+    margin: 10px;
+    color: black;
+    border-radius: 10px;
+    
+}
+
+.languages .box, div.small-box{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+div.small-box:hover{
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.languages .box:hover{
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.box_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.languages .small-box{
+    position: relative;
+    width: 250;
+    height: 100;
+    background: chartreuse;
+    /* box-shadow:0 0 20px #bac3c3 */
+    margin: 10px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+}
+.exercise-quizzes{
+    position: relative;
+    color: white;
+    height: 60vh;
+    font-size:30px;
+    background: rgb(204, 201, 201);
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn-3:hover{
+    background: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.exe_div{
+    width: 80%;
+}
+
+.btn_exe{
+    width: 40%;
+    height: 100px;
+    border: none;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 10px 0;
+    /* font-size: 15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: black;
+    opacity: 0.5;
+    background: rgb(63, 61, 61);
+}
