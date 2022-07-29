@@ -1,3 +1,3 @@
 function comming_button() {
-    location.href = "commingsoon.html";
+    location.href = "https://github.com/TheVivekYadav/codewithvivek.github.io/blob/vivek/commingsoon.html";
 };
