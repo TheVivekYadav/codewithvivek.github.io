@@ -69,3 +69,13 @@
     transform: translate(-50%, -50%);
     }
 }
+@media screen and (max-width:580px){
+    body{
+        background:red;
+    }
+    .box-main h1{
+        font-size:30px;
+        /* color:red; */
+    }
+
+}

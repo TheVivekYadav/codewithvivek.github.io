@@ -108,7 +108,12 @@ section{
     /* height: 100vh; */
     background: rgb(240, 240, 108)!important;
 }
-
+.html-box h1{
+    font-size:100px;
+}
+.javascript .html-box p{
+    font-size: 19px
+}
 .python{
     /* height: 100vh; */
     background: #282A35!important;
