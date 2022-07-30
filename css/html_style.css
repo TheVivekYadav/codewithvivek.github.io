@@ -80,3 +80,13 @@ span.angle_blue{
 .doctype_html{
     margin-top: 20px;
 }
+
+
+
+@media screen and (max-width:800px){
+
+    .html-basics{
+        text-align: center;
+    }
+    
+}

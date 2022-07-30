@@ -14,7 +14,7 @@
     height: 4px;
     margin: 5px 3px;
 }
-@media only screen and (max-width:1140px){
+@media only screen and (max-width:800px){
     .nav-list{
         flex-direction: column;
     }
@@ -69,6 +69,14 @@
     transform: translate(-50%, -50%);
     }
 }
+
+/* Html Basics */
+
+/* .html-basics{
+    /* color:red; */
+   /* text-align: center;
+} */
+
 @media screen and (max-width:580px){
     /* body{
         background:red;
