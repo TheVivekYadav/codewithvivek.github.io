@@ -55,13 +55,28 @@ li{
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-color: green;
-    
+
 }
-pre.code{
+pre.code {
     background:rgba(170, 170, 170,0.5);
     border-radius: 10px;
     font-size:larger;
 }
+
+span.angle_blue{
+    color:rgba(27, 27, 233, 0.801);
+    background:rgba(170, 170, 170,0);
+}
+
+.html_tag{
+    color:maroon;
+    background:rgba(170, 170, 170,0);
+}
+
 .htmlfeatures li{
     padding:20px;
+}
+
+.doctype_html{
+    margin-top: 20px;
 }
