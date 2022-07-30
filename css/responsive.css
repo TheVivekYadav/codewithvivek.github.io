@@ -70,9 +70,9 @@
     }
 }
 @media screen and (max-width:580px){
-    body{
+    /* body{
         background:red;
-    }
+    } */
     .box-main h1{
         font-size:30px;
         /* color:red; */

@@ -4,11 +4,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Tutorial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/html_style.css">
 </head>
 <body>
-    <h1>Html Basics</h1>
-    <h1>Introduction</h1>
+    <nav class="navbar  h-nav-resp">
+        <ul class="nav-list v-class-resp">
+          <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
+          <li><a href="#tutorial">Turorials</a></li>
+          <li><a href="#refrences">References</a></li>
+          <li><a href="#exercide">Exercise</a></li>
+        </ul>
+        <div class="title-cwv"><a class="cwv">Code With Vivek</a></div>
+        <div class="rightNav v-class-resp">
+          <input type="text" name="search" id="search" placeholder="&apacir; search cources">
+          <button class="btn btn-sm">Login</button>
+        </div>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="VIDEO"></div>
+        </div>
+      </nav>
+    
+    <h1 class="html-basics">Html Basics</h1>
+    <h1 class="introduction">Introduction</h1>
     <p>HTML is standard markup language for creating web pages developed by Tim Berners Lee in 1991.
         It is used by the browser to manipulate text, images and other content to display it in required 
         format. Each page contains a series of connection to other pages called hyperlinks.The html standard 
@@ -37,7 +59,7 @@
         <li>HTML 5 Elements</li>
         <li>Html Form validations.</li>
     </ul>
-    <h1>Introduction to HTLM Basics</h1>
+    <h1>Introduction to HTLM Basics.</h1>
     <p>HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages. 
         HTML was created by Berners-Lee in late 1991 but "HTML 2.0" was the first standard HTML specification which was 
         published in 1995. HTML 4.01 was a major version of HTML and it was published in late 1999. Though HTML 4.01 version 
@@ -49,13 +71,14 @@
         format web pages with the help of different tags available in HTML language.</p>
     <p>HTML is a MUST for students and working professionals to become a great Software Engineer specially when they are working 
         in Web Development Domain. I will list down some of the key advantages of learning HTML:</p>
-    <ul>
+    <ul class="htmlfeatures">
         <li><b>Create Web site </b>- You can create a website or customize an existing web template if you know HTML well.</li>
         <li><b>Become a web designer</b> - If you want to start a carrer as a professional web designer, HTML and CSS designing is a must skill.</li>
         <li><b>Understand web</b> - If you want to optimize your website, to boost its speed and performance, it is good to know HTML to yield best results.</li>
         <li><b>Learn other languages</b> - Once you understands the basic of HTML then other related technologies like javascript, php, or angular are become easier to understand.</li>
     </ul>
-    <h1>Hello World using HTML.</h1>
+    <h1 class="hello_world">Hello World using HTML.</h1>
+    
     <p>Just to give you a little excitement about HTML, I'm going to give you a small conventional HTML Hello World program.</p>
     <pre class="code">
 &lt!DOCTYPE html&gt
@@ -68,5 +91,6 @@
         &ltp>Hello World!&lt/p&gt
     &lt/body&gt
 &lt/html&gt</pre>
+<script src="js/rep.js"></script>
 </body>
 </html>
