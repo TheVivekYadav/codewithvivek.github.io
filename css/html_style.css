@@ -65,10 +65,15 @@ pre.code {
     background:rgba(170, 170, 170,0.5);
     border-radius: 10px;
     font-size:larger;
+    padding: 10px;
+    margin: 10px;
 }
 
 span.angle_blue{
     color:rgba(27, 27, 233, 0.801);
+    background:rgba(170, 170, 170,0);
+}
+span{
     background:rgba(170, 170, 170,0);
 }
 

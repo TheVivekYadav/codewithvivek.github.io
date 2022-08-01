@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable = no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 "">
+    <!-- user-scalable = no"> -->
     <title>Html Tutorial</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/html_style.css">
@@ -37,7 +38,7 @@
         It is used by the browser to manipulate text, images and other content to display it in required
         format. Each page contains a series of connection to other pages called hyperlinks.The html standard
         and all other web related standaards are developed under the authoriity of the world wide web consortium (W3C).
-        Standards, specifications, and draft ig ner proposals found at http://www.w3.org/.
+        Standards, specifications, and draft of new proposals found at http://www.w3.org/.
         The most recent work is the HTML 4.0 specification, which is growing in support by major browsers.</p>
     <h3>Structure</h3>
     <h5>Basic dtructure of HTML</h5>
@@ -258,25 +259,105 @@
         Element
     </h1>
     <p>
-        The style element is used to define embedded style information for HTML document.The syntax is written as 
-<span class="angle_blue">&lt</span><span class="html_tag">style</span><span class="angle_blue">&gt</span>
-<span class="angle_blue">&lt</span><span class="html_tag">/style</span><span class="angle_blue">&gt</span>
-.
-An example of 
-<span class="angle_blue">&lt</span><span class="html_tag">style</span><span class="angle_blue">&gt</span>
-element.
-</p>
-<h5>
-    <pre class="code">
+        The style element is used to define embedded style information for HTML document.The syntax is written as
+        <span class="angle_blue">&lt</span><span class="html_tag">style</span><span class="angle_blue">&gt</span>
+        <span class="angle_blue">&lt</span><span class="html_tag">/style</span><span class="angle_blue">&gt</span>
+        .
+        An example of
+        <span class="angle_blue">&lt</span><span class="html_tag">style</span><span class="angle_blue">&gt</span>
+        element.
+    </p>
+    <h5>
+        <pre class="code">
 <span class="angle_blue">&lt</span><span class="html_tag">head</span><span class="angle_blue">&gt</span>
     <span class="angle_blue">&lt</span><span class="html_tag">title</span><span class="angle_blue">&gt</span>Embedding Style Sheets<span class="angle_blue">&lt</span><span class="html_tag">/title</span><span class="angle_blue">&gt</span>
     <span class="angle_blue">&lt</span><span class="html_tag">style</span><span class="angle_blue">&gt</span>
-        <span style="color:rgba(255, 98, 0, 0.671);background-color: rgba(170, 170, 170,0);">H1</span>{<span style="color: green;background:rgba(170, 170, 170,0);">font-size</span>:<span style="color:red;background: rgba(170, 170, 170,0);">15px</span>;
-        }
+        <span style="color:rgba(255, 98, 0, 0.671);background-color: rgba(170, 170, 170,0);">h1</span>{<span style="color: green;background:rgba(170, 170, 170,0);">font-size</span>:<span style="color:red;background: rgba(170, 170, 170,0);">15px</span>;
+        <span style="color: green;background:rgba(170, 170, 170,0);">color</span>:<span style="color:red;background: rgba(170, 170, 170,0);">blue</span>;
+    }
+        <span style="color:rgba(255, 98, 0, 0.671);background-color: rgba(170, 170, 170,0);">p</span>{<span style="color: green;background:rgba(170, 170, 170,0);">font-weight</span>:<span style="color:red;background: rgba(170, 170, 170,0);">normal</span>;
+        <span style="color: green;background:rgba(170, 170, 170,0);">color</span>:<span style="color:red;background: rgba(170, 170, 170,0);">green</span>;
+    }
     <span class="angle_blue">&lt</span><span class="html_tag">/style</span><span class="angle_blue">&gt</span>
 <span class="angle_blue">&lt</span><span class="html_tag">/head</span><span class="angle_blue">&gt</span>
 </pre>
-</h5>
+    </h5>
+    <h1>HTML
+        <span class="angle_blue">&lt</span><span class="html_tag">script</span><span class="angle_blue">&gt</span>
+        Element
+    </h1>
+    <p>The
+        <span class="angle_blue">&lt</span><span class="html_tag">script</span><span class="angle_blue">&gt</span>
+        element is used to define client-side script such as JavaScript within the document or embedded external
+        JavaScript file through the <b>SRC</b> attribute.
+        The syntax is written as
+        <span class="angle_blue">&lt</span><span class="html_tag">script</span><span class="angle_blue">&gt</span>
+        <span class="angle_blue">&lt</span><span class="html_tag">/script</span><span class="angle_blue">&gt</span>
+        with the script inserted between the start and end tags.
+    <h5>
+        <pre class="code">
+<span class="angle_blue">&lt</span><span class="html_tag">html</span><span class="angle_blue">&gt</span>
+    <span class="angle_blue">&lt</span><span class="html_tag">head</span><span class="angle_blue">&gt</span>
+        <span class="angle_blue">&lt</span><span class="html_tag">title</span><span class="angle_blue">&gt</span>Adding JavaScript<span class="angle_blue">&lt</span><span class="html_tag">/title</span><span class="angle_blue">&gt</span>
+        <span class="angle_blue">&lt</span><span class="html_tag">script<span style="color: green;background:rgba(170, 170, 170,0);"> type</span>=<span style="color:red;background: rgba(170, 170, 170,0);">"text/javascript"</span><span style="color: green;background:rgba(170, 170, 170,0);">src</span>=<span style="color:red;background: rgba(170, 170, 170,0);">"script.js"</span></span><span class="angle_blue">&gt</span>
+<span class="angle_blue">&lt</span><span class="html_tag">/head</span><span class="angle_blue">&gt</span>
+<span class="angle_blue">&lt</span><span class="html_tag">body</span><span class="angle_blue">&gt</span>
+    &lt!--Document body  -->
+<span class="angle_blue">&lt</span><span class="html_tag">/body</span><span class="angle_blue">&gt</span>
+<span class="angle_blue">&lt</span><span class="html_tag">/html</span><span class="angle_blue">&gt</span>
+        </pre>
+    </h5>
+    </p>
+
+    <h1>HTML
+        <span class="angle_blue">&lt</span><span class="html_tag">base</span><span class="angle_blue">&gt</span>
+        Element
+    </h1>
+    <p>
+        HTML
+        <span class="angle_blue">&lt</span><span class="html_tag">base</span><span class="angle_blue">&gt</span>
+        element specifies a base URL for all relative links contained in the document. The syntax
+        <span class="angle_blue">&lt</span><span class="html_tag">base</span><span class="angle_blue">&gt</span>
+        us written as
+        <span class="angle_blue">&lt</span><span class="html_tag">base <span
+                style="color: green;background:rgba(170, 170, 170,0);"> href</span>=<span
+                style="color:red;background: rgba(170, 170, 170,0);">""</span><span
+                style="color: green;background:rgba(170, 170, 170,0);"> target</span>=<span
+                style="color:red;background: rgba(170, 170, 170,0);">""</span><span
+            class="angle_blue">&gt</span>. It is used either a href attribute or target.
+
+    <h5>
+        <pre class="code">
+<span class="angle_blue">&lt</span><span class="html_tag">html</span><span class="angle_blue">&gt</span>
+    <span class="angle_blue">&lt</span><span class="html_tag">head</span><span class="angle_blue">&gt</span>
+        <span class="angle_blue">&lt</span><span class="html_tag">title</span><span class="angle_blue">&gt</span>Define a Base URL<span class="angle_blue">&lt</span><span class="html_tag">/title</span><span class="angle_blue">&gt</span>
+        <span class="angle_blue">&lt</span><span class="html_tag">base <span
+    style="color: green;background:rgba(170, 170, 170,0);"> href</span>=<span
+    style="color:red;background: rgba(170, 170, 170,0);">"https://abc.tutorial.com/"</span><span
+    style="color: green;background:rgba(170, 170, 170,0);"> target</span>=<span
+    style="color:red;background: rgba(170, 170, 170,0);">"_blank"</span></span><span class="angle_blue">&gt</span>
+    <span class="angle_blue">&lt</span><span class="html_tag">/head</span><span class="angle_blue">&gt</span>
+    <span class="angle_blue">&lt</span><span class="html_tag">body</span><span class="angle_blue">&gt</span>
+        <span class="angle_blue">&lt</span><span class="html_tag">p</span><span class="angle_blue">&gt</span>Go to<span class="angle_blue">&lt</span><span class="html_tag">a
+            <span
+    style="color: green;background:rgba(170, 170, 170,0);"> href</span>=<span
+    style="color:red;background: rgba(170, 170, 170,0);">"Html-Elements/"</span></span><span class="angle_blue">&gt</span>HTML Elements<span class="angle_blue">&lt</span><span class="html_tag">/a</span><span class="angle_blue">&gt</span><span class="angle_blue">&lt</span><span class="html_tag">/p</span><span class="angle_blue">&gt</span>
+    <span class="angle_blue">&lt</span><span class="html_tag">/body</span><span class="angle_blue">&gt</span>
+<span class="angle_blue">&lt</span><span class="html_tag">/html</span><span class="angle_blue">&gt</span>
+                </pre>
+    </h5>
+    </p>
+<p>
+    The 
+<span class="angle_blue">&lt</span><span class="html_tag">base</span><span class="angle_blue">&gt</span>
+tag is inserted between the 
+<span class="angle_blue">&lt</span><span class="html_tag">head</span><span class="angle_blue">&gt</span>
+tags, and there must be enter more than one 
+<span class="angle_blue">&lt</span><span class="html_tag">base</span><span class="angle_blue">&gt</span>
+element in the document.
+
+</p>
+
 
     <script src="js/rep.js"></script>
 </body>
