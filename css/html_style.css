@@ -14,7 +14,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* display: ; */
 }
-.introduction{
+.heading{
     text-align: center;
     font-size: 50px;
     margin-top: 20px;
@@ -30,6 +30,7 @@ p{
 
 h3{
     font-size: 30px;
+    margin-top: 0%;
 }
 
 h5{
@@ -39,7 +40,10 @@ h1,h3,h5{
     padding:8px;
     margin-left: 10px;
 }
-ul{
+/* h5{
+    color:white;
+} */
+ul,ol{
     margin-left:50px;
 }
 li{
@@ -73,8 +77,12 @@ span.angle_blue{
     background:rgba(170, 170, 170,0);
 }
 
-.htmlfeatures li{
+.unoder-list li{
     padding:20px;
+}
+
+.order-list li{
+    text-transform: uppercase;
 }
 
 .doctype_html{
