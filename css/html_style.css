@@ -61,7 +61,7 @@ li{
     text-decoration-color: green;
 
 }
-pre.code {
+div.code {
     background:rgba(170, 170, 170,0.5);
     border-radius: 10px;
     font-size:larger;

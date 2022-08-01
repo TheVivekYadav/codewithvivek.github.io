@@ -1,6 +1,6 @@
 /* media query */
 
-.burger{
+.burger {
     display: none;
     position: absolute;
     cursor: pointer;
@@ -8,82 +8,99 @@
     top: 15px;
 }
 
-.line{
+.line {
     width: 33px;
     background-color: black;
     height: 4px;
     margin: 5px 3px;
 }
-@media only screen and (max-width:800px){
-    .nav-list{
+
+@media only screen and (max-width:1140px) {
+    .nav-list {
         flex-direction: column;
     }
 
-    .navbar{
-        height: 100%;  
+    .navbar {
+        height: 100%;
         flex-direction: column;
         transition: all 0.4s;
     }
-    .box-main{
+
+    .box-main {
         flex-direction: column-reverse;
         max-width: 100%;
     }
-    .rightNav{
+
+    .rightNav {
         text-align: center;
     }
-    #search{
+
+    #search {
         width: 100%;
     }
-    .burger{
+
+    .burger {
         display: block;
     }
-    .h-nav-resp{
+
+    .h-nav-resp {
         height: 72px;
     }
-    .v-class-resp{
+
+    .v-class-resp {
         opacity: 0;
     }
-    .section{
+
+    .section {
         flex-direction: column-reverse;
     }
-    .text-small{
+
+    .text-small {
         text-align: center;
     }
-    .text-big{
+
+    .text-big {
         text-align: center;
     }
-    .buttons{
+
+    .buttons {
         text-align: center;
     }
-    .paras{
+
+    .paras {
         padding: 0;
     }
-    .title-cwv{
+
+    .title-cwv {
         display: block;
     }
-    .cwv{
-        
-    position: absolute;
-    top: 34;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+    .cwv {
+
+        position: absolute;
+        top: 34;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    div.code {
+        font-size: 10px;
     }
 }
 
 /* Html Basics */
 
-/* .html-basics{
-    /* color:red; */
-   /* text-align: center;
-} */
+@media screen and (max-width:580px) {
 
-@media screen and (max-width:580px){
     /* body{
         background:red;
     } */
-    .box-main h1{
-        font-size:30px;
+    .box-main h1 {
+        font-size: 30px;
         /* color:red; */
+    }
+    div.code {
+        font-size: 6px;
     }
 
 }
