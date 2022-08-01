@@ -14,7 +14,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* display: ; */
 }
-.heading{
+h1.heading{
     text-align: center;
     font-size: 50px;
     margin-top: 20px;
@@ -36,7 +36,7 @@ h3{
 h5{
     font-size: 20px;
 }
-h1,h3,h5{
+h1,h3,h4,h5{
     padding:8px;
     margin-left: 10px;
 }
